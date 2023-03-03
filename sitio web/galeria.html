@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámaras</title>
+    <link rel="stylesheet" href="estilos3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        } 
+    </script>
+    <header>
+        <h1>Bienvenido a la casa de las cámaras</h1>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="servicios.html">Sercvicios</a>
+        <a href="camaras.html">Cámaras</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="flex-container">
+
+        <div>
+            <img src="imagenes/imagen2.jpg" alt="imagen2" class="responsive">
+        </div>
+        <div>
+            <img src="imagenes/imagen5.jpg" alt="imagen5" class="responsive">
+        </div>
+        <div>
+            <img src="imagenes/imagen6.jpg" alt="imagen6" class="responsive">
+        </div>
+        <div>
+            <img src="imagenes/imagen7.jpg" alt="imagen7" class="responsive">
+        </div>
+        <div>
+            <img src="imagenes/imagen8.jpg" alt="imagen8" class="responsive">
+        </div>
+        <div>
+            <img src="imagenes/imagen9.jpg" alt="imagen9" class="responsive">
+        </div>
+    </div>
+    <div class="footer">
+        <address>
+            Desarrollado por Isaac Vargas<br>
+            Fotos de : Pixabay.com<br>
+            Contacto: drawcommissions@gmail.com<br>
+        </address>
+    </div>
+</body>
+
+</html>
